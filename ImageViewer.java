@@ -248,6 +248,7 @@ public class ImageViewer
         filterList.add(new ThresholdFilter("Threshold"));
         filterList.add(new FishEyeFilter("Fish Eye"));
         filterList.add(new GrayFilter("GrayFilter"));
+        filterList.add(new RedTintFilter("RedTint"));
        
         return filterList;
     }
